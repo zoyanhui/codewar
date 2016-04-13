@@ -1,4 +1,6 @@
-Description:
+# Simplifing Multilinear Polynomials
+
+## Description:
 
 When we attended middle school were asked to simplify mathematical expressions like "3x-yx+2xy-x" (or usually bigger), and that was easy-peasy ("2x+xy"). But tell that to your pc and we'll see! 
 
@@ -24,3 +26,6 @@ N.B. to keep it simplest, the string in input is restricted to represent only mu
 Warning: the string in input can contain arbitrary variables represented by lowercase characters in the english alphabet.
 
 Good Work :)
+
+## Solution
+Split number and letters, sort each monomial, sort all monomials, and merge.

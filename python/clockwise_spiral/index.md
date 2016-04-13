@@ -1,4 +1,6 @@
-# Description:
+# Clockwise Spiral 
+
+## Description:
 
 Do you know how to make a spiral? Let's test it!
 
@@ -8,7 +10,7 @@ Your objective is to complete a function createSpiral(N) that receives an intege
 
 Return an empty array if N < 1
 
-# Examples:
+## Examples:
 
 ```
 N = 3 Output: [[1,2,3],[8,9,4],[7,6,5]]
