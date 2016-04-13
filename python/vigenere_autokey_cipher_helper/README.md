@@ -27,17 +27,16 @@ E.g.
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 'password'
 
-# creates a cipher helper with each letter substituted
-# by the corresponding character in the key
+*creates a cipher helper with each letter substituted by the corresponding character in the key*
 c = VigenereCipher(key, alphabet)
 
 c.encode('codewars'); # returns 'rovwsoiv'
 c.decode('laxxhsj'); # returns 'waffles'
 
-# returns 'pmsrebxoy rev lvynmylatcwu dkvzyxi bjbswwaib'
+*returns 'pmsrebxoy rev lvynmylatcwu dkvzyxi bjbswwaib'*
 c.encode('amazingly few discotheques provide jukeboxes')
 
-# returns 'amazingly few discotheques provide jukeboxes'
+*returns 'amazingly few discotheques provide jukeboxes'*
 c.decode('pmsrebxoy rev lvynmylatcwu dkvzyxi bjbswwaib')
 Any character not in the alphabet should be left alone.
 
